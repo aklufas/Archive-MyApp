@@ -19,6 +19,8 @@
 		1B9AF77A255DD21200C21EF0 /* CoatScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9AF766255DD21100C21EF0 /* CoatScore.swift */; };
 		1B9AF77B255DD21200C21EF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9AF767255DD21100C21EF0 /* SceneDelegate.swift */; };
 		1B9AF77C255DD21200C21EF0 /* WeatherObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9AF768255DD21100C21EF0 /* WeatherObject.swift */; };
+		1BA35A91255EFBD700277ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1DEE33255EF592002F7794 /* LaunchScreen.storyboard */; };
+		1BA35A92255EFBDB00277ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1DEE34255EF592002F7794 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -156,7 +158,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA35A92255EFBDB00277ECB /* Main.storyboard in Resources */,
 				1B9AF772255DD21200C21EF0 /* Assets.xcassets in Resources */,
+				1BA35A91255EFBD700277ECB /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
