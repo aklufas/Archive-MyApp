@@ -19,11 +19,11 @@
 		1B9AF77A255DD21200C21EF0 /* CoatScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9AF766255DD21100C21EF0 /* CoatScore.swift */; };
 		1B9AF77B255DD21200C21EF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9AF767255DD21100C21EF0 /* SceneDelegate.swift */; };
 		1B9AF77C255DD21200C21EF0 /* WeatherObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9AF768255DD21100C21EF0 /* WeatherObject.swift */; };
-		1B9AF77F255DD21200C21EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9AF76C255DD21200C21EF0 /* LaunchScreen.storyboard */; };
-		1B9AF780255DD21200C21EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9AF76E255DD21200C21EF0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B1DEE33255EF592002F7794 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B1DEE34255EF592002F7794 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1B9AF743255DD16A00C21EF0 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9AF75A255DD1EB00C21EF0 /* ZiptoCIty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZiptoCIty.swift; sourceTree = "<group>"; };
 		1B9AF75D255DD21100C21EF0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = /Users/alexandraklufas/Desktop/MyApp/MyApp/ViewController.swift; sourceTree = "<absolute>"; };
@@ -38,8 +38,6 @@
 		1B9AF767255DD21100C21EF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1B9AF768255DD21100C21EF0 /* WeatherObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherObject.swift; sourceTree = "<group>"; };
 		1B9AF76A255DD21200C21EF0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B9AF76D255DD21200C21EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1B9AF76F255DD21200C21EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +51,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B1DEE35255EF592002F7794 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				1B1DEE33255EF592002F7794 /* LaunchScreen.storyboard */,
+				1B1DEE34255EF592002F7794 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = /Users/alexandraklufas/Desktop/MyApp/MyApp/Base.lproj;
+			sourceTree = "<absolute>";
+		};
 		1B9AF73A255DD16900C21EF0 = {
 			isa = PBXGroup;
 			children = (
@@ -72,11 +80,11 @@
 		1B9AF745255DD16A00C21EF0 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				1B1DEE35255EF592002F7794 /* Base.lproj */,
 				1B9AF765255DD21100C21EF0 /* AlertTrigger.swift */,
 				1B9AF763255DD21100C21EF0 /* API Pull -  Weather.swift */,
 				1B9AF764255DD21100C21EF0 /* AppDelegate.swift */,
 				1B9AF75E255DD21100C21EF0 /* Assets.xcassets */,
-				1B9AF76B255DD21200C21EF0 /* Base.lproj */,
 				1B9AF761255DD21100C21EF0 /* CoatLibrary.swift */,
 				1B9AF766255DD21100C21EF0 /* CoatScore.swift */,
 				1B9AF76A255DD21200C21EF0 /* Info.plist */,
@@ -88,16 +96,6 @@
 				1B9AF75A255DD1EB00C21EF0 /* ZiptoCIty.swift */,
 			);
 			path = MyApp;
-			sourceTree = "<group>";
-		};
-		1B9AF76B255DD21200C21EF0 /* Base.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				1B9AF76C255DD21200C21EF0 /* LaunchScreen.storyboard */,
-				1B9AF76E255DD21200C21EF0 /* Main.storyboard */,
-			);
-			name = Base.lproj;
-			path = "../../NO NOT THIS/OLD VERSIONWhatCoatShouldIWear/Base.lproj";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,8 +157,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B9AF772255DD21200C21EF0 /* Assets.xcassets in Resources */,
-				1B9AF780255DD21200C21EF0 /* Main.storyboard in Resources */,
-				1B9AF77F255DD21200C21EF0 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,25 +182,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		1B9AF76C255DD21200C21EF0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B9AF76D255DD21200C21EF0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		1B9AF76E255DD21200C21EF0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B9AF76F255DD21200C21EF0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1B9AF755255DD16C00C21EF0 /* Debug */ = {
